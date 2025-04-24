@@ -1,0 +1,37 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.63\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"isReportAnnotationsDisabled\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]},\"creationSource\":\"DataExplore\"}",
+  "filters": "[]",
+  "layoutOptimization": 0,
+  "resourcePackages": [],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "9b6e4ffa4cb17ba290ca",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"dataExploreChartVisualContainer\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.975019516003123,\"y\":277.78298204527715,\"z\":0,\"width\":1216.049960967994,\"height\":410.6791569086651}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"0621call_log.calldate\",\"active\":true},{\"queryRef\":\"0621call_log.callid\"},{\"queryRef\":\"0621call_log.campaign\"},{\"queryRef\":\"0621call_log.cacdtrack\"},{\"queryRef\":\"14DaysLog.acdgroup\"},{\"queryRef\":\"14DaysLog.AGENTID\"},{\"queryRef\":\"14DaysLog.FullDate\"},{\"queryRef\":\"14DaysLog.CALLID\"},{\"queryRef\":\"14DaysLog.CallDateShort\"}],\"Series\":[{\"queryRef\":\"0621call_log.calllist\"}],\"Y\":[{\"queryRef\":\"Sum(0621call_log.calltime)\"}],\"Tooltips\":[{\"queryRef\":\"Sum(0621call_log.calltype)\"},{\"queryRef\":\"14DaysLog.AbandonedRatio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"0\",\"Entity\":\"0621call_log\",\"Type\":0},{\"Name\":\"1\",\"Entity\":\"14DaysLog\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calldate\"},\"Name\":\"0621call_log.calldate\",\"NativeReferenceName\":\"calldate\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calllist\"},\"Name\":\"0621call_log.calllist\",\"NativeReferenceName\":\"calllist\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"callid\"},\"Name\":\"0621call_log.callid\",\"NativeReferenceName\":\"callid\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calltime\"}},\"Function\":0},\"Name\":\"Sum(0621call_log.calltime)\",\"NativeReferenceName\":\"Sum of calltime\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calltype\"}},\"Function\":0},\"Name\":\"Sum(0621call_log.calltype)\",\"NativeReferenceName\":\"Sum of calltype\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"campaign\"},\"Name\":\"0621call_log.campaign\",\"NativeReferenceName\":\"campaign\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"cacdtrack\"},\"Name\":\"0621call_log.cacdtrack\",\"NativeReferenceName\":\"cacdtrack\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"AbandonedRatio\"},\"Name\":\"14DaysLog.AbandonedRatio\",\"NativeReferenceName\":\"AbandonedRatio\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"acdgroup\"},\"Name\":\"14DaysLog.acdgroup\",\"NativeReferenceName\":\"acdgroup\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"AGENTID\"},\"Name\":\"14DaysLog.AGENTID\",\"NativeReferenceName\":\"AGENTID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"FullDate\"},\"Name\":\"14DaysLog.FullDate\",\"NativeReferenceName\":\"FullDate\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"CALLID\"},\"Name\":\"14DaysLog.CALLID\",\"NativeReferenceName\":\"CALLID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"1\"}},\"Property\":\"CallDateShort\"},\"Name\":\"14DaysLog.CallDateShort\",\"NativeReferenceName\":\"CallDateShort\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calldate\"}}}]},\"filterSortOrder\":3,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 410.68,
+          "width": 1216.05,
+          "x": 31.98,
+          "y": 277.78,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"dataExploreMatrixVisualContainer\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32,\"y\":32,\"width\":1216,\"height\":312,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"0621call_log.calldate\",\"active\":true},{\"queryRef\":\"0621call_log.callid\"},{\"queryRef\":\"0621call_log.campaign\"},{\"queryRef\":\"0621call_log.cacdtrack\"}],\"Columns\":[{\"queryRef\":\"0621call_log.calllist\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(0621call_log.calltime)\"},{\"queryRef\":\"Sum(0621call_log.calltype)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"0\",\"Entity\":\"0621call_log\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calldate\"},\"Name\":\"0621call_log.calldate\",\"NativeReferenceName\":\"calldate\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calllist\"},\"Name\":\"0621call_log.calllist\",\"NativeReferenceName\":\"calllist\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"callid\"},\"Name\":\"0621call_log.callid\",\"NativeReferenceName\":\"callid\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calltime\"}},\"Function\":0},\"Name\":\"Sum(0621call_log.calltime)\",\"NativeReferenceName\":\"Sum of calltime\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"calltype\"}},\"Function\":0},\"Name\":\"Sum(0621call_log.calltype)\",\"NativeReferenceName\":\"Sum of calltype\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"campaign\"},\"Name\":\"0621call_log.campaign\",\"NativeReferenceName\":\"campaign\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"0\"}},\"Property\":\"cacdtrack\"},\"Name\":\"0621call_log.cacdtrack\",\"NativeReferenceName\":\"cacdtrack\"}]},\"autoSelectVisualType\":false,\"filterSortOrder\":3,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 312.00,
+          "width": 1216.00,
+          "x": 32.00,
+          "y": 32.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

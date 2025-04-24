@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "IT Desk Dashboards"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "01fde4e6-e2bf-afb2-4e50-472998c2e570"
+  }
+}

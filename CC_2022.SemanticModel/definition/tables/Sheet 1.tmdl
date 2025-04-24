@@ -1,0 +1,204 @@
+table 'Sheet 1'
+	lineageTag: 3b323516-4e56-4303-b97e-a539bc97908d
+
+	column TEAMLEADER
+		dataType: string
+		lineageTag: e3c355dc-f8c9-4836-9daa-1cb2fccd8290
+		summarizeBy: none
+		sourceColumn: TEAMLEADER
+
+		annotation SummarizationSetBy = Automatic
+
+	column FE_CC_ID
+		dataType: string
+		lineageTag: e3719622-abdb-4a7a-b46e-8b13ac713cc8
+		summarizeBy: none
+		sourceColumn: FE_CC_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CC_STATUS
+		dataType: string
+		lineageTag: 9cb7aa1c-8afd-4e24-8ba3-820c98771d8a
+		summarizeBy: none
+		sourceColumn: CC_STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column IMPACT
+		dataType: string
+		lineageTag: aa561e10-9fc9-4fcd-ae6c-9cd51c58a2a9
+		summarizeBy: none
+		sourceColumn: IMPACT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CC_DESCRIPTION
+		dataType: string
+		lineageTag: 8b232571-4128-4a11-8931-67106a016100
+		summarizeBy: none
+		sourceColumn: CC_DESCRIPTION
+
+		annotation SummarizationSetBy = Automatic
+
+	column Window
+		dataType: string
+		lineageTag: 4b28ac5a-964c-42a2-b0be-5579f1d30445
+		summarizeBy: none
+		sourceColumn: Window
+
+		annotation SummarizationSetBy = Automatic
+
+	column START_DT
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7debb2a0-b836-458b-876d-37401eab0cc2
+		summarizeBy: none
+		sourceColumn: START_DT
+
+		variation Variation
+			isDefault
+			relationship: e80df84d-2c86-462e-9309-2aec082f0542
+			defaultHierarchy: LocalDateTable_e4b7a8be-bfa5-4631-af97-3143853aef6b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column START_TIME
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 7cb76dec-9b88-4586-a40a-1b7ef2c683ae
+		summarizeBy: none
+		sourceColumn: START_TIME
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column END_DT
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5c4547f6-375a-482e-bcca-de31247fa3bf
+		summarizeBy: none
+		sourceColumn: END_DT
+
+		variation Variation
+			isDefault
+			relationship: a07359b0-b903-44a6-b5ab-173f1128cc2e
+			defaultHierarchy: LocalDateTable_6f57e7c5-be5b-452e-967b-e34e809e1215.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column END_TIME
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 3a5ac64d-2cb1-4b5b-a8f4-85a6dc316c47
+		summarizeBy: none
+		sourceColumn: END_TIME
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column PLATFORM
+		dataType: string
+		lineageTag: ce803904-c150-45e6-b999-5b9796fb1868
+		summarizeBy: none
+		sourceColumn: PLATFORM
+
+		annotation SummarizationSetBy = Automatic
+
+	column APPLICATION
+		dataType: string
+		lineageTag: f045738f-f547-45e8-a650-b6e5f288656c
+		summarizeBy: none
+		sourceColumn: APPLICATION
+
+		annotation SummarizationSetBy = Automatic
+
+	column FE_REQUEST_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 3a3426b9-75ff-4633-a300-012642a97674
+		summarizeBy: count
+		sourceColumn: FE_REQUEST_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TASK_STATUS
+		dataType: string
+		lineageTag: 84bd4d7d-8b60-49ef-ac21-be9643ca2cb7
+		summarizeBy: none
+		sourceColumn: TASK_STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column TASK_DESCRIPTION
+		dataType: string
+		lineageTag: 32894222-3e23-4993-968b-52b5911a6c07
+		summarizeBy: none
+		sourceColumn: TASK_DESCRIPTION
+
+		annotation SummarizationSetBy = Automatic
+
+	column OUTOFWINDOW
+		dataType: string
+		lineageTag: fc7722dc-039d-4756-9519-6f5dfd3274f1
+		summarizeBy: none
+		sourceColumn: OUTOFWINDOW
+
+		annotation SummarizationSetBy = Automatic
+
+	column OWNER
+		dataType: string
+		lineageTag: 137a117d-815e-4fc8-ab31-ca6c3759487c
+		summarizeBy: none
+		sourceColumn: OWNER
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROW_ADDED_DTTM
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 991fb231-ba74-49fb-8dee-44c95fc3e5d5
+		summarizeBy: none
+		sourceColumn: ROW_ADDED_DTTM
+
+		variation Variation
+			isDefault
+			relationship: 5358f74f-efb2-475c-a774-a023e0509794
+			defaultHierarchy: LocalDateTable_bfee718f-05d9-495d-8fe2-21206610d851.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ROW_LASTMANT_DTTM
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 3b25c740-b25e-48ad-96b5-148a1da1757c
+		summarizeBy: none
+		sourceColumn: ROW_LASTMANT_DTTM
+
+		variation Variation
+			isDefault
+			relationship: a8581835-f6b7-45fb-8148-d8e525c5bff9
+			defaultHierarchy: LocalDateTable_d1934d6c-20fa-4021-bb83-c7195fd1e72a.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Sheet 1-17fef59f-ad62-4528-a072-b8444c2e6147' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\RaviBabu\CCs_By_Outofwindow_20221126.xlsx"), null, true),
+				    #"Sheet 1_Sheet" = Source{[Item="Sheet 1",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Sheet 1_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"TEAMLEADER", type text}, {"FE_CC_ID", type text}, {"CC_STATUS", type text}, {"IMPACT", type text}, {"CC_DESCRIPTION", type text}, {"TAG", type text}, {"START_DT", type date}, {"START_TIME", type time}, {"END_DT", type date}, {"END_TIME", type time}, {"PLATFORM", type text}, {"APPLICATION", type text}, {"FE_REQUEST_ID", Int64.Type}, {"TASK_STATUS", type text}, {"TASK_DESCRIPTION", type text}, {"OUTOFWINDOW", type text}, {"OWNER", type text}, {"ROW_ADDED_DTTM", type datetime}, {"ROW_LASTMANT_DTTM", type datetime}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"TAG", "Window"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+

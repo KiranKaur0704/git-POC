@@ -1,0 +1,78 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU09\",\"version\":\"5.39\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY22SU09",
+            "path": "BaseThemes/CY22SU09.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"33af9a8503e5dd5d06c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.4387197501952,\"y\":159.87509758001562,\"z\":2000,\"width\":561.5612802498049,\"height\":311.75644028103045,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"START_DT\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"TOTAL_REQUESTS\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"227.85714285714286D\"}}}},\"selector\":{\"metadata\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"193.71428571428572D\"}}}},\"selector\":{\"metadata\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}}]}}}",
+          "filters": "[]",
+          "height": 311.76,
+          "width": 561.56,
+          "x": 718.44,
+          "y": 159.88,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"47e5f619ce5627e8e986\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":4000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"PowerApps_PBI_CV_C29F1DCC_81F5_4973_94AD_0517D44CC06A\",\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 300.00,
+          "x": 100.00,
+          "y": 100.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"6cfb7a4000a168644333\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.5714285714287,\"y\":0,\"z\":1000,\"width\":561.4285714285714,\"height\":160,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"TOTAL REQUESTS\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 160.00,
+          "width": 561.43,
+          "x": 718.57,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9f85826f749198d65b87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.5714285714287,\"y\":511.42857142857144,\"z\":3000,\"width\":561.4285714285714,\"height\":208.57142857142858,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"esriVisual\",\"projections\":{\"Location\":[{\"queryRef\":\"Sheet 1.Window\"}],\"Size\":[{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Window\"},\"Name\":\"Sheet 1.Window\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"236.14285714285717D\"}}}},\"selector\":{\"metadata\":\"Sheet 1.Window\"}}],\"mapTools\":[{\"properties\":{\"basemaps\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"geometryCache\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"key\\\":\\\"cachedgeocode@@world\\\",\\\"compressionMethod\\\":\\\"pako\\\",\\\"data\\\":\\\"H4sIAAAAAAAAA8srzckBAE/8yyUEAAAA\\\"}'\"}}}}}],\"mapObject\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"portalUrl\\\":\\\"https://www.arcgis.com\\\",\\\"version\\\":\\\"2.4\\\",\\\"isAuthorNamedUser\\\":false,\\\"map\\\":{\\\"webmap\\\":{\\\"is3d\\\":false,\\\"itemData\\\":{\\\"operationalLayers\\\":[{\\\"id\\\":\\\"MyLayer\\\",\\\"visibility\\\":true,\\\"opacity\\\":1,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"refreshInterval\\\":0,\\\"title\\\":\\\"Window\\\",\\\"objectIdField\\\":\\\"objectId\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"layerType\\\":\\\"ArcGISFeatureLayer\\\",\\\"popupEnabled\\\":true,\\\"disablePopup\\\":false,\\\"visible\\\":true,\\\"geometryType\\\":\\\"point\\\",\\\"source\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"type\\\":\\\"point\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}],\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"esriMaps\\\":{\\\"customProps\\\":null,\\\"isTimeEnabled\\\":\\\"false\\\",\\\"clusterInfo\\\":null,\\\"filteredRenderer\\\":null,\\\"lastShareInfo\\\":null},\\\"timeInfo\\\":null,\\\"showLabels\\\":true,\\\"featureCollection\\\":{\\\"layers\\\":[{\\\"popupInfo\\\":{\\\"popupElements\\\":[{\\\"type\\\":\\\"fields\\\",\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"Sheet_201_Window\\\",\\\"isEditable\\\":false,\\\"label\\\":\\\"Window\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"CountNonNull_Sheet_201_FE_REQUEST_ID_\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"isEditable\\\":false,\\\"label\\\":\\\"Count of FE_REQUEST_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"ROW_ID\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"isEditable\\\":false,\\\"label\\\":\\\"ROW_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}]}],\\\"expressionInfos\\\":[],\\\"fieldInfos\\\":[{\\\"fieldName\\\":\\\"Sheet_201_Window\\\",\\\"isEditable\\\":false,\\\"label\\\":\\\"Window\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"CountNonNull_Sheet_201_FE_REQUEST_ID_\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"isEditable\\\":false,\\\"label\\\":\\\"Count of FE_REQUEST_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true},{\\\"fieldName\\\":\\\"ROW_ID\\\",\\\"format\\\":{\\\"digitSeparator\\\":true,\\\"places\\\":0},\\\"isEditable\\\":false,\\\"label\\\":\\\"ROW_ID\\\",\\\"tooltip\\\":\\\"\\\",\\\"visible\\\":true}],\\\"title\\\":\\\"\\\",\\\"actions\\\":[]},\\\"layerDefinition\\\":{\\\"objectIdField\\\":\\\"objectId\\\",\\\"fields\\\":[{\\\"alias\\\":\\\"objectId\\\",\\\"editable\\\":false,\\\"name\\\":\\\"objectId\\\",\\\"nullable\\\":false,\\\"type\\\":\\\"esriFieldTypeOID\\\"},{\\\"alias\\\":\\\"Window\\\",\\\"editable\\\":true,\\\"length\\\":-1,\\\"name\\\":\\\"Sheet_201_Window\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeString\\\"},{\\\"alias\\\":\\\"Count of FE_REQUEST_ID\\\",\\\"editable\\\":true,\\\"name\\\":\\\"CountNonNull_Sheet_201_FE_REQUEST_ID_\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeInteger\\\"},{\\\"alias\\\":\\\"ROW_ID\\\",\\\"editable\\\":true,\\\"name\\\":\\\"ROW_ID\\\",\\\"nullable\\\":true,\\\"type\\\":\\\"esriFieldTypeInteger\\\"}],\\\"geometryType\\\":\\\"point\\\",\\\"drawingInfo\\\":{\\\"renderer\\\":{\\\"authoringInfo\\\":{\\\"classificationMethod\\\":\\\"esriClassifyNaturalBreaks\\\",\\\"numClasses\\\":5,\\\"standardDeviationInterval\\\":1,\\\"type\\\":\\\"classedSize\\\"},\\\"type\\\":\\\"classBreaks\\\",\\\"visualVariables\\\":[],\\\"classBreakInfos\\\":[{\\\"classMaxValue\\\":100,\\\"symbol\\\":{\\\"type\\\":\\\"esriSMS\\\",\\\"color\\\":[250,168,63,255],\\\"angle\\\":0,\\\"xoffset\\\":0,\\\"yoffset\\\":0,\\\"size\\\":3,\\\"style\\\":\\\"esriSMSCircle\\\",\\\"outline\\\":{\\\"type\\\":\\\"esriSLS\\\",\\\"color\\\":[255,255,255,204],\\\"width\\\":1,\\\"style\\\":\\\"esriSLSSolid\\\"}}}],\\\"defaultLabel\\\":\\\"Other\\\",\\\"defaultSymbol\\\":{\\\"type\\\":\\\"esriSMS\\\",\\\"color\\\":[128,128,128,255],\\\"angle\\\":0,\\\"xoffset\\\":0,\\\"yoffset\\\":0,\\\"size\\\":3,\\\"style\\\":\\\"esriSMSCircle\\\",\\\"outline\\\":{\\\"type\\\":\\\"esriSLS\\\",\\\"color\\\":[255,255,255,64],\\\"width\\\":0.75,\\\"style\\\":\\\"esriSLSSolid\\\"}},\\\"field\\\":\\\"CountNonNull_Sheet_201_FE_REQUEST_ID_\\\",\\\"minValue\\\":0},\\\"transparency\\\":0},\\\"featureReduction\\\":null,\\\"minScale\\\":0,\\\"maxScale\\\":0,\\\"definitionExpression\\\":null,\\\"elevationInfo\\\":null,\\\"name\\\":\\\"Window\\\",\\\"type\\\":\\\"DataLayer\\\",\\\"locationProvider\\\":{\\\"type\\\":\\\"cachedgeocode\\\",\\\"sourceCountry\\\":\\\"world\\\",\\\"targetSR\\\":102100,\\\"lookupFields\\\":[{\\\"lookupField\\\":\\\"SingleLine\\\",\\\"outField\\\":\\\"Sheet_201_Window\\\"}]},\\\"queryParameters\\\":{\\\"tableId\\\":\\\"\\\"}},\\\"featureSet\\\":{\\\"features\\\":[{\\\"attributes\\\":{},\\\"geometry\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"type\\\":\\\"point\\\",\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100}}}]}}]}}],\\\"tables\\\":[],\\\"baseMap\\\":{\\\"baseMapLayers\\\":[{\\\"id\\\":\\\"VectorTile_1970\\\",\\\"opacity\\\":1,\\\"title\\\":\\\"Light Gray Base\\\",\\\"visibility\\\":true,\\\"layerType\\\":\\\"VectorTileLayer\\\",\\\"styleUrl\\\":\\\"https://cdn.arcgis.com/sharing/rest/content/items/291da5eab3a0412593b66d384379f89f/resources/styles/root.json\\\"}],\\\"title\\\":\\\"Light Gray Canvas\\\"},\\\"version\\\":\\\"2.26\\\",\\\"authoringApp\\\":\\\"ArcGIS for Power BI\\\",\\\"bookmarks\\\":[],\\\"initialState\\\":{\\\"viewpoint\\\":{\\\"targetGeometry\\\":{\\\"spatialReference\\\":{\\\"latestWkid\\\":3857,\\\"wkid\\\":102100},\\\"xmin\\\":-21558840.461790994,\\\"ymin\\\":5431137.712057618,\\\"xmax\\\":4962.461790991947,\\\"ymax\\\":12475574.238817612}}}}},\\\"webmapExtensions\\\":{\\\"format\\\":2}},\\\"embedCheckPassed\\\":false}'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 208.57,
+          "width": 561.43,
+          "x": 718.57,
+          "y": 511.43,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"e2dd3934d99d9174ccde\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.613733905579398,\"y\":0,\"z\":0,\"width\":697.6824034334763,\"height\":719.656652360515,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Series\":[{\"queryRef\":\"Sheet 1.TAG\"}],\"Size\":[{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Window\"},\"Name\":\"Sheet 1.TAG\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"Change Control\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 719.66,
+          "width": 697.68,
+          "x": 9.61,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

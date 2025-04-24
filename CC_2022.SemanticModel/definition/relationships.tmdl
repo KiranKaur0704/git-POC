@@ -1,0 +1,20 @@
+relationship e80df84d-2c86-462e-9309-2aec082f0542
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Sheet 1'.START_DT
+	toColumn: LocalDateTable_e4b7a8be-bfa5-4631-af97-3143853aef6b.Date
+
+relationship a07359b0-b903-44a6-b5ab-173f1128cc2e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Sheet 1'.END_DT
+	toColumn: LocalDateTable_6f57e7c5-be5b-452e-967b-e34e809e1215.Date
+
+relationship 5358f74f-efb2-475c-a774-a023e0509794
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Sheet 1'.ROW_ADDED_DTTM
+	toColumn: LocalDateTable_bfee718f-05d9-495d-8fe2-21206610d851.Date
+
+relationship a8581835-f6b7-45fb-8148-d8e525c5bff9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Sheet 1'.ROW_LASTMANT_DTTM
+	toColumn: LocalDateTable_d1934d6c-20fa-4021-bb83-c7195fd1e72a.Date
+
