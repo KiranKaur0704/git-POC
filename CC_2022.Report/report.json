@@ -27,7 +27,7 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"2436b02f43df06cf61fe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718,\"y\":0,\"width\":562,\"height\":720,\"z\":4001,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"decompositionTreeVisual\",\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"2436b02f43df06cf61fe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718,\"y\":0,\"width\":562,\"height\":720,\"z\":4001,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 720.00,
           "width": 562.00,
