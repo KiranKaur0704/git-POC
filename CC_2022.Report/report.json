@@ -27,15 +27,6 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"33af9a8503e5dd5d06c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.4387197501952,\"y\":159.87509758001562,\"z\":2000,\"width\":561.5612802498049,\"height\":311.75644028103045,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"START_DT\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"TOTAL_REQUESTS\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"227.85714285714286D\"}}}},\"selector\":{\"metadata\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"193.71428571428572D\"}}}},\"selector\":{\"metadata\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}}]}}}",
-          "filters": "[]",
-          "height": 311.76,
-          "width": 561.56,
-          "x": 718.44,
-          "y": 159.88,
-          "z": 2000.00
-        },
-        {
           "config": "{\"name\":\"47e5f619ce5627e8e986\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":4000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"PowerApps_PBI_CV_C29F1DCC_81F5_4973_94AD_0517D44CC06A\",\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 300.00,
