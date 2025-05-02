@@ -1,0 +1,28 @@
+name: Deploy to Microsoft Fabric
+
+on:
+  push:
+    branches: [ "main" ]
+  
+jobs:
+  uni_test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with: 
+          python-version: "3.10"
+
+      - name: Install dependensies 
+        run: pip install requests 
+        
+      - name: Run Fabric deployment script
+        env:
+          FABRIC_WORKSPACE_ID:${{daa68fe7-49a6-477b-8c2b-ef26e391a1bd}}
+          FABRIC_PIPELINE_ID:${{pipelines/b6123a0a-4507-4b73-82ce-018b6a9ed23d}}
+          FABRIC_ACCESS_TOKEN:${{
+          run: python deploy_fabric.py
