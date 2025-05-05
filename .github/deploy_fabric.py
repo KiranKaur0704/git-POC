@@ -11,3 +11,4 @@ def get_access_token (eac95919-a7ae-4dad-9b67-43815f6dc5e1, de4ccad4-4712-4ae4-b
     }
     response = requests.post(url, headers=headers, data=data)
     return response.json().get('access_token')
+
